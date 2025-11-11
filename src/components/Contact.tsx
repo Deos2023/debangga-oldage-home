@@ -32,7 +32,7 @@ const Contact = () => {
       `Name: ${formData.name}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
     );
 
-    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=amamchandrasarkar35@gmail.com&su=Visit%20Booking%20Request&body=${emailBody}`;
+    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=amalchandrasarkar35@gmail.com&su=Visit%20Booking%20Request&body=${emailBody}`;
     const mailtoLink = `mailto:amalchandrasarkar35@gmail.com?subject=Visit%20Booking%20Request&body=${emailBody}`;
 
     window.open(gmailLink, "_blank") || (window.location.href = mailtoLink);
@@ -120,10 +120,10 @@ const Contact = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:amamchandrasarkar35@gmail.com"
+                      href="mailto:amalchandrasarkar35@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      amamchandrasarkar35@gmail.com
+                      amalchandrasarkar35@gmail.com
                     </a>
                   </div>
                 </div>
