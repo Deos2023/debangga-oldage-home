@@ -33,7 +33,7 @@ const Contact = () => {
     );
 
     const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=amamchandrasarkar35@gmail.com&su=Visit%20Booking%20Request&body=${emailBody}`;
-    const mailtoLink = `mailto:amamchandrasarkar35@gmail.com?subject=Visit%20Booking%20Request&body=${emailBody}`;
+    const mailtoLink = `mailto:amalchandrasarkar35@gmail.com?subject=Visit%20Booking%20Request&body=${emailBody}`;
 
     window.open(gmailLink, "_blank") || (window.location.href = mailtoLink);
 
